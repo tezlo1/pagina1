@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster+Two|Luckiest+Guy");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@font-face {
+  font-family: "NovaFlat";
+  src: url(../fuentes/NovaFlat.ttf); }
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #FEF3EC; }
+
+hr {
+  width: 70%;
+  margin: 50px auto; }
+
+/* HEADER */
+header nav .logo {
+  float: left;
+  margin-left: 40px;
+  margin-top: 40px; }
+  header nav .logo img {
+    width: 230px; }
+header nav .menu {
+  float: right;
+  margin-right: 40px;
+  margin-top: 40px; }
+  header nav .menu ul {
+    padding: 0;
+    list-style: none; }
+    header nav .menu ul li {
+      font-family: "NovaFlat";
+      font-size: 18px;
+      color: #000;
+      padding: 20px 30px;
+      display: inline-block;
+      border-radius: 100px; }
+      header nav .menu ul li:hover {
+        background: #FF8C00; }
+      header nav .menu ul li a {
+        display: block;
+        text-decoration: none; }
+header .image, header .image article {
+  clear: both;
+  width: 100%;
+  height: 700px; }
+header .image {
+  /*Imagen de fondo */
+  background-image: url("../img/ima-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  header .image article {
+    background: #FF8C00;
+    opacity: 0.65; }
+    header .image article div {
+      position: relative;
+      width: 50%; }
+    header .image article div h1, header .image article div h2 {
+      font-family: "times new roman";
+      color: #F7FE2E;
+      font-size: 40px;
+      opacity: 1; }
+    header .image article .d1 {
+      top: 270px;
+      left: 200px; }
+    header .image article .d2 {
+      top: 500px;
+      left: 600px; }
+
+/* MAIN	 */
+main {
+  margin-top: 80px; }
+  main .texto h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Luckiest Guy"; }
+  main .texto p {
+    margin: 30px 80px;
+    font-family: "Open Sans";
+    line-height: 2; }
+  main .galeria {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+    main .galeria div {
+      width: 30%; }
+      main .galeria div:hover {
+        background: #FF8C00;
+        color: #fff;
+        opacity: 0.7; }
+      main .galeria div a {
+        color: #FF8C00;
+        text-decoration: none; }
+        main .galeria div a:hover {
+          color: #fff; }
+        main .galeria div a img {
+          width: 100%; }
+        main .galeria div a p {
+          padding: 20px 0px;
+          text-align: center;
+          font-family: "Open Sans";
+          font-weight: bold; }
+  main .equipo {
+    /*Nuestro equipo */
+    margin-top: 90px; }
+    main .equipo h1 {
+      font-size: 40px;
+      text-align: center;
+      font-family: "Luckiest Guy"; }
+    main .equipo .texto p {
+      margin: 30px 80px;
+      font-family: "Open Sans";
+      line-height: 2; }
+    main .equipo .fotos {
+      margin-top: 70px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around; }
+      main .equipo .fotos div {
+        width: 20%; }
+        main .equipo .fotos div h3 {
+          text-align: center; }
+        main .equipo .fotos div img {
+          width: 100%; }
+        main .equipo .fotos div p {
+          font-family: "Open Sans";
+          font-size: 13px; }
+  main .donde_estamos {
+    width: 70%;
+    margin: auto; }
+    main .donde_estamos h1 {
+      font-size: 40px;
+      text-align: center;
+      font-family: "Luckiest Guy"; }
+    main .donde_estamos p {
+      font-family: "Open Sans"; }
+    main .donde_estamos .mapa {
+      margin-top: 20px; }
+
+/* FOOTER */
+footer {
+  background: #263E5B; }
+  footer .contactos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    footer .contactos article {
+      width: 50%;
+      margin: 30px 0; }
+      footer .contactos article h1 {
+        font-family: "Lobster Two";
+        color: #D0E7E9;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 20px; }
+      footer .contactos article div {
+        padding-left: 70px; }
+        footer .contactos article div a, footer .contactos article div p {
+          color: #D0E7E9;
+          font-family: "NovaFlat";
+          font-size: 20px;
+          line-height: 3; }
+        footer .contactos article div a {
+          text-decoration: none; }
+          footer .contactos article div a:hover {
+            text-decoration: underline; }
+  footer .redes {
+    width: 100%;
+    background: #19283A;
+    display: flex;
+    justify-content: flex-end; }
+    footer .redes div {
+      padding: 15px;
+      font-size: 40px;
+      color: #D0E7E9;
+      border-radius: 20px; }
+      footer .redes div:hover {
+        color: #19283A;
+        background: #D0E7E9; }
+
+/*# sourceMappingURL=estilos.css.map */
